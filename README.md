@@ -16,7 +16,7 @@ Plans:
 3. Instead of using google speaker, we can use any natural voice free or paid in the internet to improve our using experience by using url key.
 4. Combine 2 & 3, we can certainly create a modern chatbot which can automatically response for example it can talk with other players in games through game chat microphone.
 5. Add more functions for example Search or Provide images, use another AI to detect and assign object's labels in images or image captions as input for chatbot and even more.
-6. Design modern interactive interface and utilities for Chatbot in Android Platform or Windform applications. 
+6. Design modern interactive interface and utilities for Chatbot in Android Platform or Winform applications. 
 
 Reference link:
 https://data-flair.training/blogs/python-chatbot-project/
