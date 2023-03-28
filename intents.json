@@ -1,0 +1,133 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "It's my pleasure", "It's my responsibility"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Hey, I can't get you"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can guide you through a lot of amazing Python projects from Data-flair website where you can find fantastic projects in many fields for example : Machine learning, Deep Learning, AI projects, Python games and even more."],
+     "context": [""]
+    },
+    {"tag": "projects",
+     "patterns": ["Give me a list of top projects", "Open projects module", "How to check projects", "projects", "Project list" ],
+     "responses": ["Navigating to projects"],
+     "context": ["search_projects_by_topic"]
+    },
+    {"tag": "search_projects_by_topic",
+     "patterns": ["" ],
+     "responses": ["Here's all topic you can find: Machine Learning Projects, Deep Learning Projects, AI Projects, Python Django Projects, Python Interview Question, Python Quiz"],
+     "context": [""]
+    },
+    {"tag": "computer_vision",
+     "patterns": ["Give me Computer Vision project list", "Computer Vision" ],
+     "responses": ["Navigating to Computer Vision"],
+     "context": ["search_Computer_Vision_projects"]
+    },
+    {"tag": "image_processing",
+     "patterns": ["Image processing","Image processing projects" ],
+     "responses": ["You mean Computer Vision?, navigating to Computer Vision"],
+     "context": [""]
+    },
+    {"tag": "search_computer_vision_projects",
+     "patterns": [],
+     "responses": ["Here's what I can find: Edge Detection, Photo Sketching, Detecting Contours, Collage Mosaic Generator, Barcode and QR Code Scanner and even more"],
+     "context": [""]
+    },
+    {"tag": "audio_processing",
+     "patterns": ["Audio processing", "Audio processing projects" ],
+     "responses": ["Navigating to Audio processing"],
+     "context": ["search_audio_projects_by_topic"]
+    },
+    {"tag": "search_audio_projects_by_topic",
+     "patterns": [],
+     "responses": ["Here's what I can find: Text to Speech"],
+     "context": [""]
+    },
+    {"tag": "machine_learning",
+     "patterns": ["Machine Learning", "Machine Learning projects", "Give me a list of Machine Learning" ],
+     "responses": ["Navigating to Machine Learning"],
+     "context": ["search_machine_learning_by_topic"]
+    },
+    {"tag": "search_machine_learning_by_topic",
+     "patterns": [],
+     "responses": ["Here's all results I can find: Cartoonify Image with Machine Learning, Iris Flowers Classification Project, Create your own emoji with Python, Loan Prediction using Machine Learning, Housing Prices Prediction Project and even more"],
+     "context": [""]
+    },
+    {"tag": "deep_learning",
+     "patterns": ["Deep learning", "Deep learning projects", "List of Deep Learning projects"],
+     "responses": ["Navigating to Deep Learning"],
+     "context": ["search_deep_learning_by_topic"]
+    },
+    {"tag": "search_deep_learning_by_topic",
+     "patterns": [],
+     "responses": ["Results you want to find: Deep Learning Project Ideas for Beginners, Build your Own Neural Net from Scratch, Image Classification with CIFAR-10 Dataset, Human Face Detection, Traffic Sign Classification, Breast Cancer Classification and even more ideas"],
+     "context": [""]
+    },
+    {"tag": "games",
+    "patterns": ["Any game projects", "I want to create a game", "Games"],
+    "responses": ["Navigating to Games"],
+    "context": ["search_games_by_topic"]
+    },
+    {"tag": "search_games_by_topic",
+     "patterns": [],
+     "responses": ["There are a lot of games you can create yourself: Hangman Project in Python, Rock Paper Scissors Python Game, Dice Rolling Simulator in Python, Python Snake Game and more"],
+     "context": [""]
+    },
+    {"tag": "neural_network",
+     "patterns": ["What is neural network", "How is neural network working", "neural network"],
+     "responses": ["A neural network is a network or circuit of biological neurons, or, in a modern sense, an artificial neural network, composed of artificial neurons or node, according to Wikipedia"],
+     "context": [""]
+    },
+    {"tag": "AI",
+     "patterns": ["What is AI", "What definition of AI", "AI", "How is AI working"],
+     "responses": ["AI is intelligence—perceiving, synthesizing, and inferring information—demonstrated by machines, as opposed to intelligence displayed by non-human animals and humans, according to Wikipedia"],
+     "context": [""]
+    },
+    {"tag": "medical_projects",
+     "patterns": ["Medical projects","Any medical projects", "Practical projects"],
+     "responses": ["Navigating to Medical Projects"],
+     "context": ["search_medical_projects_by_topic"]
+    },
+    {"tag": "search_medical_projects_by_topic",
+     "patterns": [],
+     "responses": ["Here's all I can find: Breast Cancer Classification, Gender Recognition Using Voice, Detecting Parkinson's Disease with XGBoost, COVID-19 Spread Analysis with Flask"],
+     "context": [""]
+    },
+    {"tag": "Roadmap",
+     "patterns": ["Can you give me a list of projects", "Where should I start", "What's project good in the beginning", "Roadmap"],
+     "responses": ["From my point of view, for the starter, you should learn more about python, understand more definitions, basic principles and you can start with some Basic Python Projects for example: Desktop Notifier App in Python, Binary Search Algorithm or Convert Text to Speech in Python. After that, you can try higher level projects in Intermediate Python Projects such as Calculator in Python, Random Password Generator in Python, Text Editor in Python. Learning from practical projects will help you step by step using Python proficiently and working with a plenty of amazing projects in Machine Learning, Deep Learning and Data Science."],
+     "context": [""]
+    },
+    {"tag": "Chatbot",
+     "patterns": ["What is chatbot","Chatbot","Tell me about chatbot"],
+     "responses": ["A chatbot is an intelligent piece of software that is capable of communicating and performing actions similar to a human. Chatbots are used a lot in customer interaction, marketing on social network sites and instantly messaging the client. There are two basic types of chatbot models based on how they are built; Retrieval based and Generative based models."],
+     "context": [""]
+    },
+    {"tag": "instruction",
+     "patterns": ["How can I use this app", "How can I use","Instruction", "I need instruction","Any guide for me", "Guide"],
+     "responses": ["There are two main parts of the interface. There is a chat window box located above where you can see my answers while the below box are tool box with some simple symbols where you can enter text or input for example audio, voice from microphone or handwritten and send button to chat with me. In addtional, you can minimize or close this application as other normal applications with 3 familiar symbols of Windows at the top of this app but I have to goodbye you immediately."],
+     "context": [""]
+    },
+    {"tag": "introduction",
+     "patterns": ["Tell me more about you", "What about you","Who are you", "You are chatbot", "Do you know who you are"],
+     "responses": ["Sure, as you wish","I am a simple chatbot created by Nguyen Nam Cuong when he need some practical projects to prepare for finding a job when he just graduated from university."],
+     "context": [""]
+    }
+]
+}

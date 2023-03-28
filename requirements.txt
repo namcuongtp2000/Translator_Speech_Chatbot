@@ -1,0 +1,3 @@
+#IMPORTANT : we should downgrade playsound to version 1.2.2 to avoid error 263: "The specified device is not open or is not recognized by MCI."
+playsound == 1.2.2
+googletrans==4.0.0-rc1
